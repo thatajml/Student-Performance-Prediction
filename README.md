@@ -17,6 +17,7 @@ It helps educators identify students who may need additional support.
 ---
 
 ## 🗂 Project Structure
+'''bash
 student-performance-prediction/
 │── data/                 # Raw and processed datasets
 │── notebooks/            # Jupyter notebooks for exploration & modeling
@@ -27,7 +28,7 @@ student-performance-prediction/
 │── docs/                 # Documentation and reports
 │── requirements.txt      # Python dependencies
 │── README.md             # Project readme
-
+'''
 ---
 
 ## ⚙️ Tech Stack
