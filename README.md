@@ -17,18 +17,22 @@ It helps educators identify students who may need additional support.
 ---
 
 ## 🗂 Project Structure
-'''bash
-student-performance-prediction/
-│── data/                 # Raw and processed datasets
-│── notebooks/            # Jupyter notebooks for exploration & modeling
-│── src/                  # Source code for backend and frontend
-│   ├── backend/          # API endpoints
-│   ├── frontend/         # Web UI code
-│── models/               # Saved ML models
-│── docs/                 # Documentation and reports
-│── requirements.txt      # Python dependencies
-│── README.md             # Project readme
-'''
+
+<pre>
+```
+Student-Performance-Prediction/
+│── data/               # Raw and processed datasets
+│── notebooks/          # Jupyter notebooks
+│── src/                # Source code
+│   ├── backend/        # API code
+│   ├── frontend/       # Web UI code
+│── models/             # Trained models
+│── docs/               # Documentation
+│── requirements.txt    # Python dependencies
+│── README.md           # Project readme
+```
+</pre>
+
 ---
 
 ## ⚙️ Tech Stack
