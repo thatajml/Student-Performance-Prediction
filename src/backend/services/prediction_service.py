@@ -1,13 +1,6 @@
-from flask import Blueprint, request, jsonify
-from services.prediction_service import predict_student_performance
-
-prediction_bp = Blueprint("prediction_bp", __name__)
-
-@prediction_bp.route("/predict", methods=["POST"])
-def predict():
-    try:
-        data = request.get_json()
-        prediction = predict_student_performance(data)
-        return jsonify({"prediction": prediction})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
+def get_mock_prediction(data):
+    return {
+        "student_name": data.get("name", "Unknown"),
+        "predicted_score": 85,
+        "performance_category": "Above Average"
+    }
