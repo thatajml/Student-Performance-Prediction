@@ -45,6 +45,7 @@ Student-Performance-Prediction/
 │── docs/               # Documentation
 │── requirements.txt    # Python dependencies
 │── README.md           # Project readme
+│──test_api.http        # VS Code REST Client for testing your Flask API quickly
 ```
 </pre>
 
