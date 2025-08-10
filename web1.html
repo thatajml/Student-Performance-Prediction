@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Student Performance Prediction</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="web1.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="card">
+    <h2>📊 Student Performance Prediction</h2>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <!-- Step Form -->
+    <form id="multiStepForm">
+        <!-- Step 1 -->
+        <div class="form-step active">
+            <label>Student Name</label>
+            <input type="text" name="name" placeholder="Enter name" required>
+            <label>Age</label>
+            <input type="number" name="age" placeholder="Enter age" min="5" max="100" required>
+            <label>Gender</label>
+            <select name="gender" required>
+                <option value="">Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <div class="btn-group">
+                <button type="button" class="next-btn">Next ➡</button>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="form-step">
+            <label>Study Hours per Day</label>
+            <input type="number" name="hours" placeholder="Enter hours" min="0" max="24" required>
+            <label>Attendance (%)</label>
+            <input type="number" name="attendance" placeholder="Enter %" min="0" max="100" required>
+            <label>Previous Exam Score (%)</label>
+            <input type="number" name="prevScore" placeholder="Enter %" min="0" max="100" required>
+            <div class="btn-group">
+                <button type="button" class="prev-btn">⬅ Back</button>
+                <button type="button" class="next-btn">Next ➡</button>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="form-step">
+            <label>Assignments Completed (out of 10)</label>
+            <input type="number" name="assignments" placeholder="0-10" min="0" max="10" required>
+            <label>Participation in Class</label>
+            <select name="participation" required>
+                <option value="">Select</option>
+                <option>Never</option>
+                <option>Sometimes</option>
+                <option>Often</option>
+                <option>Always</option>
+            </select>
+            <label>Access to Study Materials</label>
+            <select name="materials" required>
+                <option value="">Select</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <label>Parental Support Level</label>
+            <select name="support" required>
+                <option value="">Select</option>
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+            </select>
+            <div class="btn-group">
+                <button type="button" class="prev-btn">⬅ Back</button>
+                <button type="submit">Predict 📈</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Result Section -->
+    <div id="result" class="result"></div>
+
+    <!-- Chart -->
+    <div class="chart-container">
+        <canvas id="performanceChart"></canvas>
+    </div>
+</div>
+
+<script src="web1.js"></script>
+</body>
+</html>
