@@ -1,0 +1,12 @@
+
+EDA Summary Report
+------------------
+Date: 2025-08-18 23:17:58
+
+1.  **Dataset Shape**: Original: (2000, 18), Cleaned: (2000, 3185).
+2.  **Feature Engineering**:
+    * Created 'Average_Score' as the target variable.
+3.  **Preprocessing Steps**:
+    * **Missing Numeric Values**: Imputed with column mean.
+    * **Missing Categorical Values**: Imputed with column mode.
+    * **Scaling & Encoding**: Numeric features were standardized, and categorical features were OneHotEncoded.
