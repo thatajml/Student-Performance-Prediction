@@ -1,0 +1,11 @@
+### Test GET request (Home route)
+GET http://127.0.0.1:5000/
+
+### Test POST request (Predict endpoint)
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+    "feature1": 5,
+    "feature2": 10
+}

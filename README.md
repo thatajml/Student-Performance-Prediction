@@ -24,12 +24,28 @@ Student-Performance-Prediction/
 │── data/               # Raw and processed datasets
 │── notebooks/          # Jupyter notebooks
 │── src/                # Source code
-│   ├── backend/        # API code
-│   ├── frontend/       # Web UI code
+│    ├── backend/        # API code
+│    ├── app.py                     # Main Flask entry point
+│    │
+│    ├── config/                    # Configurations
+│    │   └── config.py               # App, model, DB config
+│    │
+│    ├── routes/                    # API route definitions
+│    │   ├── __init__.py
+│    │   └── prediction_routes.py    # Endpoints for prediction
+│    │
+│    ├── services/                  # Business logic
+│    │   └── prediction_service.py   # Handles prediction logic
+│    │
+│    ├── utils/                     # Helper functions
+│    │   └── data_validation.py      # Validates input data
+│    │
+│    ├── frontend/       # Web UI code
 │── models/             # Trained models
 │── docs/               # Documentation
 │── requirements.txt    # Python dependencies
 │── README.md           # Project readme
+│──test_api.http        # VS Code REST Client for testing your Flask API quickly
 ```
 </pre>
 
